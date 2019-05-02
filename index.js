@@ -1,4 +1,4 @@
-import * as secrets from './auth.json'
+var secrets = require('./auth.json')
 
 const token = secrets.token
 const Discord = require('discord.js')
